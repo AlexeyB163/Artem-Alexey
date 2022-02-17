@@ -42,6 +42,10 @@ class DescriptionFilmViewController: UIViewController {
         scoreVC.delegate = self
     }
     
+    private func setDurationFilm() {
+        
+    }
+    
     @IBAction func scheduleButton() {
         
     }

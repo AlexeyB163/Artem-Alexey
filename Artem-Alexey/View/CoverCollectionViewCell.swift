@@ -14,7 +14,7 @@ class CoverCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        layer.cornerRadius = 10
+        layer.cornerRadius = 12
     }
 
     func setCell(cover: String, title: String) {
