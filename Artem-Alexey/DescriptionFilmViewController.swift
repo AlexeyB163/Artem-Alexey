@@ -33,6 +33,7 @@ class DescriptionFilmViewController: UIViewController {
         
         coverFilmImage.image = UIImage(named: data.cover)
         scoreLabel.text = score
+        setDurationFilm(duration: data.duration)
         genreLabel.text = data.genre.rawValue
         descriptionLabel.text = data.description
     }
@@ -42,8 +43,12 @@ class DescriptionFilmViewController: UIViewController {
         scoreVC.delegate = self
     }
     
-    private func setDurationFilm() {
-        
+    private func setDurationFilm(duration value: Int) {
+        var hours:Int = 0
+        var minute:Int = 0
+        hours = value / 60
+        minute = value - (hours * 60)
+        durationLabel.text = "\(hours) ч. \(minute) мин."
     }
     
     @IBAction func scheduleButton() {
