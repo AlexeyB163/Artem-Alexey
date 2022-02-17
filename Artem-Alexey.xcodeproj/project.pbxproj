@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC07657527BEC97000145E0E /* DevelopersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07657427BEC97000145E0E /* DevelopersViewController.swift */; };
+		AC07657727BECAE800145E0E /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07657627BECAE800145E0E /* Developer.swift */; };
+		AC07657927BECFCB00145E0E /* CinemasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07657827BECFCB00145E0E /* CinemasViewController.swift */; };
 		CE1F4F0727B44E1700EF3302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F4F0627B44E1700EF3302 /* AppDelegate.swift */; };
 		CE1F4F0927B44E1700EF3302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F4F0827B44E1700EF3302 /* SceneDelegate.swift */; };
 		CE1F4F0B27B44E1700EF3302 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F4F0A27B44E1700EF3302 /* StartViewController.swift */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC07657427BEC97000145E0E /* DevelopersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopersViewController.swift; sourceTree = "<group>"; };
+		AC07657627BECAE800145E0E /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		AC07657827BECFCB00145E0E /* CinemasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CinemasViewController.swift; path = View/CinemasViewController.swift; sourceTree = "<group>"; };
 		CE1F4F0327B44E1700EF3302 /* Artem-Alexey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Artem-Alexey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1F4F0627B44E1700EF3302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE1F4F0827B44E1700EF3302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +105,7 @@
 				CE1F4F1B27B451DB00EF3302 /* Film.swift */,
 				CE1F4F1F27B4522D00EF3302 /* Cinema.swift */,
 				CE1F4F1D27B4520F00EF3302 /* News.swift */,
+				AC07657627BECAE800145E0E /* Developer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +155,8 @@
 				CE44E2E227BC2F34008F77FD /* ScoreViewController.swift */,
 				CE1F4F2A27B98C4400EF3302 /* DescriptionFilmViewController.swift */,
 				CE44E2EC27BD7D20008F77FD /* NewsDescriptionViewController.swift */,
+				AC07657427BEC97000145E0E /* DevelopersViewController.swift */,
+				AC07657827BECFCB00145E0E /* CinemasViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -235,10 +244,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1F4F2B27B98C4400EF3302 /* DescriptionFilmViewController.swift in Sources */,
+				AC07657527BEC97000145E0E /* DevelopersViewController.swift in Sources */,
 				CE44E2E927BD2BEF008F77FD /* WriteReviewViewController.swift in Sources */,
 				CE44E2E327BC2F34008F77FD /* ScoreViewController.swift in Sources */,
 				CE1F4F2027B4522D00EF3302 /* Cinema.swift in Sources */,
 				CE44E2EB27BD6756008F77FD /* ReviewDescriptionViewController.swift in Sources */,
+				AC07657727BECAE800145E0E /* Developer.swift in Sources */,
 				CE1F4F3527BACAE800EF3302 /* CoverCollectionViewCell.swift in Sources */,
 				CE44E2ED27BD7D20008F77FD /* NewsDescriptionViewController.swift in Sources */,
 				CE1F4F0B27B44E1700EF3302 /* StartViewController.swift in Sources */,
@@ -249,6 +260,7 @@
 				CE1F4F1E27B4520F00EF3302 /* News.swift in Sources */,
 				CE44E2E727BD2750008F77FD /* ReviewsViewController.swift in Sources */,
 				CE1F4F0927B44E1700EF3302 /* SceneDelegate.swift in Sources */,
+				AC07657927BECFCB00145E0E /* CinemasViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

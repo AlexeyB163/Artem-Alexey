@@ -7,14 +7,10 @@
 
 struct Cinema {
     let title: String
-    let sсhedule: String
+    let adress: String
+    let shedule: [String]
     
-   static func getscheduleCinemas () -> [String:[String]] {
-        var cinemas:[String:[String]] = [:]
-       let cinema = DataManager.data.titleCinemas.shuffled()
-        for index in cinema {
-            cinemas[index.key] = DataManager.data.schedule.randomElement()
-        }
-        return cinemas
+    static func getCinemas() -> [Cinema] {
+        DataManager.data.cinemas
     }
 }
